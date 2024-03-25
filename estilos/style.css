@@ -41,5 +41,24 @@ iframe#tela {
     top: 80px;
     left: 22px;
     width: 267px;
-    height: 470px ;
+    height: 471px ;
+}
+
+section#redes-sociais img {  /*CONFIGURAÇÃO DOS BOTOES*/
+    width: 50px;
+    margin: 10px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.400);
+    box-sizing: border-box;
+}
+
+section#redes-sociais{ /*DEIXAR OS BOTOES A DIREITA*/
+    text-align: right;
+}
+
+section#redes-sociais img:hover{ /*CONFIGURAÇÃO DOS BOTOES*/
+    border: 3px solid white;
+    transform: translate(-15px, -5px); /*botoes de levanta pra erquerda e pra cima */
+    box-shadow: 5px 5px 10px black;
+    transition: transforma .3s, border 1s;
 }
